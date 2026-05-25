@@ -64,7 +64,7 @@ export const bookSlot = createServerFn({ method: "POST" })
     const { supabase } = context;
     const { data: res, error } = await supabase.rpc("book_slot", {
       _slot_id: data.slotId,
-      _notes: data.notes ?? null,
+      _notes: data.notes,
     });
     if (error) throw new Error(error.message);
     return res;
@@ -100,7 +100,7 @@ export const rescheduleBooking = createServerFn({ method: "POST" })
     if (cancelErr) throw new Error(cancelErr.message);
     const { data: res, error } = await supabase.rpc("book_slot", {
       _slot_id: data.newSlotId,
-      _notes: null,
+      _notes: undefined,
     });
     if (error) throw new Error(error.message);
     return res;
