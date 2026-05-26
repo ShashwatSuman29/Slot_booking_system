@@ -1,4 +1,4 @@
-# 🏆 Golden Response: Full-Stack Slot Booking Web Application
+# Golden Response: Full-Stack Slot Booking Web Application
 
 > **Scope**: Production-grade, end-to-end implementation covering folder structure, database schema, backend APIs, frontend pages, auth, RBAC, conflict prevention, admin panel, and deployment. Every code block is copy-paste ready.
 
