@@ -4,7 +4,7 @@ You are a senior software engineer and product manager who is responsible for bu
 
 # OBJECTIVE:
 
-Design and implement a full-stack Slot Booking Web Application that allows users to:
+Design and develop a full-stack Slot Booking Web Application that allows users to:
 
 1-View available time slots
 
@@ -117,7 +117,7 @@ Design and implement a full-stack Slot Booking Web Application that allows users
 * Admin control panel
 * Email notifications (optional)
 
-# ERROR HANDLING REQUIREMENTS:
+# ERROR HANDLING REQUIREMENT:
 
 * Slot already booked → "this slot is not available"
 * Unauthorized access → redirect to login
@@ -126,7 +126,7 @@ Design and implement a full-stack Slot Booking Web Application that allows users
 * Network failure → offline error toast
 * Form validation errors → inline field errors
 
-# PERFORMANCE REQUIREMENTS:
+# PERFORMANCE REQUIREMENT:
 
 * Debounced slot fetching
 * Pagination for admin tables
